@@ -15,6 +15,14 @@ local default_plugins = {
     end,
   },
 
+ {
+    "christoomey/vim-tmux-navigator", -- tmux & split window navigation
+   lazy = false,
+    config = function()
+      require "nvchad_ui"
+    end,
+  },
+
   {
     "NvChad/ui",
     branch = "v2.0",
