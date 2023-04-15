@@ -4,4 +4,6 @@
 -- autocmd("VimResized", {
 --   pattern = "*",
 --   command = "tabdo wincmd =",
--- })
+-- })-
+--
+vim.opt.guicursor = ""
